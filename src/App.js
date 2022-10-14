@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Acara, Cover, Galeri, Intro, Mempelai, Ucapan } from "./components";
+import "./index.css";
 
 const App = () => {
   return (
