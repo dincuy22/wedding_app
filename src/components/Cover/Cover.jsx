@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { images } from "../../constants";
 import { BiEnvelopeOpen } from "react-icons/bi";
 
+import { images } from "../../constants";
 import "./Cover.scss";
 
 const Cover = () => {
