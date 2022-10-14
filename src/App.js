@@ -1,7 +1,18 @@
 import React from "react";
 
+import { Acara, Cover, Galeri, Intro, Mempelai, Ucapan } from "./components";
+
 const App = () => {
-  return <h1>Testtt</h1>;
+  return (
+    <div className="container">
+      <Cover />
+      <Intro />
+      <Mempelai />
+      <Acara />
+      <Galeri />
+      <Ucapan />
+    </div>
+  );
 };
 
 export default App;
